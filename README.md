@@ -9,8 +9,9 @@ of in Gitpod (gitpod is zonder mailen van orders en zonder permanent hosten):
 ### In mijn webshop vind je: 
 - Trainingsapparatuur
 ### Deze webshop is gemaakt door: 
-- *naam van leerling 1* 
--  *naam van leerling 2*
+- Tyrese
+- Seth
+- Jarno 
 
 # Mijn aanpak
 Werk de planning af van boven naar beneden<br>
