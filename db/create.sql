@@ -8,9 +8,12 @@ CREATE TABLE products (
   name VARCHAR(255),
   description TEXT,
   price NUMERIC(10, 2)
+  
 );
 
 
+
+  
 --
 -- populate with data
 --
@@ -20,10 +23,14 @@ CREATE TABLE products (
 -- want different data? check: https://www.mockaroo.com/910b6c20
 --
 
-insert into products (name, description, code, price) values ('sjeen weights', 'de sjeen weights limited edition zijn comfortabel en gemaakt van de stenen van gestolde lava van de sjeen empire', '816905633-0', 3000);
-insert into products (name, description, code, price) values ('Post Mortem', 'Nulla ut erat id mauris vulputate elementum. Nullam varius.', '077030122-3', 11);
-insert into products (name, description, code, price) values ('Scarlet and the Black, The', 'Pellentesque at nulla. Suspendisse potenti.', '445924201-X', 13.5);
-insert into products (name, description, code, price) values ('Aquí llega Condemor, el pecador de la pradera', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.', '693155505-7', 13.5);
-insert into products (name, description, code, price) values ('Kiss for Corliss, A (Almost a Bride)', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', '686928463-6', 14);
-insert into products (name, description, code, price) values ('Velvet Goldmine', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.', '492662523-7', 14);
+insert into products (name, description,  code, price) values ('sjeen weights', 'de sjeen weights limited edition zijn comfortabel en gemaakt van de stenen van gestolde lava van de sjeen empire','1', '816905633-0', 3000);
+insert into products (name, description,  code, price) values ('Gorilla Bench Press', 'bench press gemaakt voor echte gorillas ', '077030122-3', 500);
+insert into products (name, description,  code, price) values ('Force Pull up Band', 'force band die je helpt met pull ups opbouwen', '445924201-X', 300);
+insert into products (name, description, code, price) values ('Bazooka Campered Bar', 'deze campered bar laat je biceps pump eruit zien als bazookas', '693155505-7', 250);
+insert into products (name, description,  code, price) values ('Explosive Proteine Shakes', 'deze explosieve shakes geven je na een work-out de meeste proteine om te bulken', '686928463-6', 10);
+insert into products (name, description,  code, price) values ('Kangeroe Leg Press Machine', 'na het gebruiken van deze leg press gaan je benen even sterk zijn als die van een kangeroe', '492662523-7', 1000);
+insert into products (name, description, code, price) values ('Superman Squad Bar', 'deze superman squad bar in combinatie met de kangeroe leg press krijg je het beste resultaat voor bij je benen', '492662523-7', 6000);
+insert into products (name, description,  code, price) values ('Hulk Chest Press Machine', 'wil jij ook een chest zoals de hulk, koop dan dit product!', '492662523-7', 5000);
+insert into products (name, description, code, price) values ('Ultimate Sjeen Weights', 'een verbeterde versie van de originele sjeen weights. wanneer je deze sjeen weights heb gebruikt dan verander je in een Giga Chad Greek God!', '492662523-7', 100000);
 
+  insert into ratings (name) values ('beste weights ooit!');
