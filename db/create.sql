@@ -8,7 +8,7 @@ CREATE TABLE products (
   name VARCHAR(255),
   description TEXT,
   price NUMERIC(10, 2),
-  ratings_id TEXT,
+  rating_id INTEGER,
   zwaarte_id NUMERIC(11, 3),
   chest_id INTEGER,
   back_id INTEGER,
@@ -17,7 +17,7 @@ CREATE TABLE products (
 
 CREATE TABLE ratings (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  ratingname TEXT
+  name VARCHAR (250)
 );
 
 CREATE TABLE zwaarte (
@@ -56,6 +56,8 @@ insert into products (name, description,  code, price) values ('Explosive Protei
 insert into products (name, description,  code, price) values ('Kangeroe Leg Press Machine', 'na het gebruiken van deze leg press gaan je benen even sterk zijn als die van een kangeroe', '492662523-7', 1000);
 insert into products (name, description, code, price) values ('Superman Squad Bar', 'deze superman squad bar in combinatie met de kangeroe leg press krijg je het beste resultaat voor bij je benen', '492662523-7', 6000);
 insert into products (name, description,  code, price) values ('Hulk Chest Press Machine', 'wil jij ook een chest zoals de hulk, koop dan dit product!', '492662523-7', 5000);
-insert into products (name, description, code, price, ratings_id) values ('Ultimate Sjeen Weights', 'een verbeterde versie van de originele sjeen weights. wanneer je deze sjeen weights heb gebruikt dan verander je in een Giga Chad Greek God!', '492662523-7', 100000, 1);
+insert into products (name, description, code, price, rating_id) values ('Ultimate Sjeen Weights', 'een verbeterde versie van de originele sjeen weights. wanneer je deze sjeen weights heb gebruikt dan verander je in een Giga Chad Greek God!', '492662523-7', 100000, 1);
 
-insert into ratings_id (name) values ('beste weights ooit!');
+insert into ratings (name) values ('beste weights ooit!');
+insert into ratings (name) values ('ik heb veel progressie gezien');
+insert into ratings (name) values ('echt een aanrader');
